@@ -1,3 +1,17 @@
+# Star Wars API (swapi) App
+
+Used Google Gemini to get the start code.
+
+---
+
+# References
+
+[Star Wars API (swapi)](https://swapi.tech/)
+
+[Gemini](https://gemini.google.com/)
+
+[Weider icons created by egorpolyakov - Flaticon](https://www.flaticon.com/free-icons/weider)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
