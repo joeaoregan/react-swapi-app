@@ -1,5 +1,7 @@
 # Star Wars API (swapi) App
 
+[View App on GitHub Pages](https://joeaoregan.github.io/react-swapi-app/)
+
 Used Google Gemini to get the start code.
 
 ---
