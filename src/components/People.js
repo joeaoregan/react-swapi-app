@@ -3,20 +3,16 @@ import '../index.css';
 
 // Main App component
 function App() {
-  // State to store the fetched Star Wars characters
-  const [characters, setCharacters] = useState([]);
-  // State to manage the loading status of the API call
-  const [loading, setLoading] = useState(true);
-  // State to store any error that might occur during the API call
-  const [error, setError] = useState(null);
+  const [characters, setCharacters] = useState([]); // State to store the fetched Star Wars characters
+  const [loading, setLoading] = useState(true); // State to manage the loading status of the API call 
+  const [error, setError] = useState(null); // State to store any error that might occur during the API call
 
   // useEffect hook to perform data fetching when the component mounts
   useEffect(() => {
     // Asynchronous function to fetch data from the SWAPI
     const fetchCharacters = async () => {
       try {
-        // Set loading to true before starting the fetch
-        setLoading(true);
+        setLoading(true); // Set loading to true before starting the fetch
         setError(null); // Clear any previous errors
         console.log("Attempting to fetch Star Wars characters...");
 
@@ -33,9 +29,8 @@ function App() {
           const errorText = await response.text(); // Get more details if available
           throw new Error(`HTTP error! Status: ${response.status} - ${errorText}`);
         }
-
-        // Parse the JSON response
-        const data = await response.json();
+        
+        const data = await response.json(); // Parse the JSON response
         console.log("Fetched data:", data);
 
         // SWAPI.tech's /people/ endpoint directly returns objects with 'name' and 'url'
@@ -90,16 +85,8 @@ function App() {
   // --- Render the fetched data ---
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white font-inter p-6 sm:p-10">
-      <header className="text-center mb-10">
-        <h1 className="text-5xl sm:text-6xl font-extrabold text-yellow-400 drop-shadow-lg mb-4 rounded-xl px-4 py-2 inline-block bg-opacity-10 bg-yellow-400 backdrop-filter backdrop-blur-sm">
-          Star Wars Characters
-        </h1>
-        <p className="text-xl sm:text-2xl text-gray-300">
-          A galaxy of heroes, villains, and droids awaits.
-        </p>
-      </header>
-
+    <div className="/*min-h-screen*/ text-center bg-gradient-to-br from-gray-900 to-gray-800 text-white font-inter p-6 sm:p-10"> 
+    <h2 className="text-2xl sm:text-4xl font-extrabold text-yellow-400 drop-shadow-lg mb-4 rounded-xl px-4 py-2 inline-block bg-opacity-10 bg-yellow-400 backdrop-filter backdrop-blur-sm">People</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {characters.map((character) => (
           <div

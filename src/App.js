@@ -1,15 +1,18 @@
 
 import React from 'react';
 import './index.css';
-import './index.css';
-import StarWarsCharacters from './components/StarWarsCharacters';
+import Header from './components/Header';
+import People from './components/People';
+import Planets from './components/Planets';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <StarWarsCharacters />
+        <Header />
+        <People />
+        <Planets />
       </header>
     </div>
   );
