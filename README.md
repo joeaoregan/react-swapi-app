@@ -6,7 +6,7 @@ Used Google Gemini to get the start code.
 
 CSS styles with Tailwind CSS.
 
-Added footer using React Bootstrap.
+Added footer with SVG links.
 
 ---
 
@@ -22,7 +22,9 @@ Added footer using React Bootstrap.
 
 [Create a Simple Footer using React Bootstrap](https://medium.com/@racosta323/create-a-simple-footer-using-react-bootstrap-58c4371a4ade)
 
-[React Bootstrap](https://react-bootstrap.netlify.app/)
+[SVG Repo](https://www.svgrepo.com/)
+
+---
 
 # Getting Started with Create React App
 
