@@ -4,7 +4,7 @@ import './index.css';
 import Header from './components/Header';
 import People from './components/People';
 import Planets from './components/Planets';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Header />
         <People />
         <Planets />
+        <Footer />
       </header>
     </div>
   );

@@ -4,6 +4,10 @@
 
 Used Google Gemini to get the start code.
 
+CSS styles with Tailwind CSS.
+
+Added footer using React Bootstrap.
+
 ---
 
 # References
@@ -15,6 +19,10 @@ Used Google Gemini to get the start code.
 [Weider icons created by egorpolyakov - Flaticon](https://www.flaticon.com/free-icons/weider)
 
 [Deploying a React App* to GitHub Pages](https://github.com/gitname/react-gh-pages)
+
+[Create a Simple Footer using React Bootstrap](https://medium.com/@racosta323/create-a-simple-footer-using-react-bootstrap-58c4371a4ade)
+
+[React Bootstrap](https://react-bootstrap.netlify.app/)
 
 # Getting Started with Create React App
 
